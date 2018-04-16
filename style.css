@@ -1,11 +1,74 @@
+body {
+    margin:0;
+}
+
 #name-plate {
     padding: 0;
+    width: auto;
 }
 
 #navbar-controls {
     padding: 0;
+    float: right;
+
 }
 
 .nav-item {
     float: right;
+}
+
+.nav-list {
+    float: right;
+}
+
+.name-bg-overide {
+    background-color: #4aaaa5;
+}
+
+#name {
+    color: white;
+}
+
+#main-section {
+    height: 430px;
+    padding: 50px 0px 0px 0px;
+
+}
+
+#row-1 {
+    margin: 0 0 0 20px;
+}
+
+#row-2 {
+    margin: 100px 0 0 0;
+    width: 100%;
+}
+
+.sub-head {
+    font-size: 35px;
+    padding-left: 40px;
+    border-bottom: white;
+}
+
+.main-content {
+    padding:40px;
+}
+
+#row-2-blank {
+    padding: 0;
+    margin: 0;
+}
+
+#footer-1-overide {
+    background-color: #4aaaa5;
+    height: 10px;
+    margin: 60px 0 0 0;
+}
+
+#footer-2-overide {
+    background-color: gray;
+    height: 86px;
+    margin: 0;
+    padding:0;
+    text-align: center;
 }

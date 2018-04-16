@@ -5,24 +5,29 @@
 <head>
 
     <title>N.M.E. Portfolio_Bootstrap</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+
 
 </head>
 
 <body>
 
-<!-- navbar str -->
-    <div class="row">
+    <!-- navbar str -->
+    <div class="row" id="row-1">
 
         <div class="col-md-6" id="name-plate">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="./index.html">Nicholas Edwards</a>
+                <div class="name-bg-overide">
+                    <a class="navbar-brand" id="name" href="./index.html">Nicholas Edwards</a>
+                </div>
             </nav>
         </div>
 
-        <div class="col-md-6" id="navbar-controls">
+        <div class="col-md-6 float-right" id="navbar-controls">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="nav-item nav-link" href="./index.html">About</a>
                 <a class="nav-item nav-link" href="./portfolio.html">Porfolio</a>
@@ -31,9 +36,40 @@
         </div>
 
     </div>
+    <!-- navbar end -->
 
-<!-- navbar end -->
+    <div class="row" id="row-2">
+        <div class="col-md-8 offset-2 bg-secondary" id="main-section">
+
+            <div class="sub-head">
+                About Me
+            </div>
+
+            <div class="main-content">
+                               
+                <p>
+                    <span id="pic"><img src="https://picsum.photos/200/150" alt="Place Holder Cat"></span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias itaque similique ab, fuga aliquam eos? Repellendus, quas! Quidem quo odio architecto, nostrum exercitationem aspernatur reprehenderit corrupti odit sint natus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias fuga quos necessitatibus, delectus modi sit voluptatum tempora laborum culpa non ullam similique eius, error atque quas dolorum praesentium minima.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius quod iure nulla quasi adipisci? Totam architecto laboriosam fugiat nostrum asperiores consequuntur, culpa et corrupti harum voluptatem. Magnam minima tempora facilis.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="col-md-2" id="row-2-blank"></div>
+    </div>
     
+    <div class="row" id="row-3">
+        <div class="col-md-12">          
+            <footer class="portfolio-footer-1" id="footer-1-overide"></footer>
+            <footer class="portfolio-footer-2" id="footer-2-overide">
+                Copyright 
+            </footer>  
+        </div>
+    </div>
+
+
 </body>
 
 </html>
